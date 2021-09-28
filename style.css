@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -11,7 +13,9 @@ body {
 		#f3f8f7 49.91%,
 		#fff9f5 94.19%
 	);
-	overflow: hidden;
+	color: #54575a;
+	font-family: Lato, sans-serif;
+	overflow-x: hidden;
 }
 
 .wrapper {
@@ -20,4 +24,32 @@ body {
 	min-height: 100vh;
 	margin: auto;
 	background: dodgerblue;
+}
+
+.title {
+	position: absolute;
+	width: 458px;
+	height: 135px;
+	top: 236px;
+	left: 221px;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 67px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.text {
+	position: absolute;
+	height: 96px;
+	width: 394px;
+	left: 221px;
+	top: 403px;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 32px;
+	letter-spacing: 0em;
+	text-align: left;
 }

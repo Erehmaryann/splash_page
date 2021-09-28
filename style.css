@@ -5,4 +5,19 @@
 }
 
 body {
+	background: linear-gradient(
+		180deg,
+		#ffffff 0%,
+		#f3f8f7 49.91%,
+		#fff9f5 94.19%
+	);
+	overflow: hidden;
+}
+
+.wrapper {
+	position: relative;
+	width: 1440px;
+	min-height: 100vh;
+	margin: auto;
+	background: dodgerblue;
 }

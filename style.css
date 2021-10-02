@@ -138,3 +138,20 @@ body {
 	right: 479px;
 	top: 1157px;
 }
+
+/* Background Toggles */
+.background-toggles {
+	position: absolute;
+	right: 150px;
+	top: 70px;
+	display: flex;
+}
+
+.background-toggles > div {
+	height: 25px;
+	width: 25px;
+	border-radius: 5px;
+	margin-right: 10px;
+	box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+}
